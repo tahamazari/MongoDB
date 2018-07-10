@@ -1,0 +1,11 @@
+Once when you are done with connecting the server. Do the following in the cmd:
+1. use fullstack (makes a database by this name)
+2. db.students.insert({'_id': ObjectId('5b44b8db4fb0e6b053eb05a2'), 'name': 'Taha', 'marks': 95.0})
+3. db.students.insert({'_id': ObjectId('5b44be294fb0e6b053eb05a3'), 'name': 'Louis', 'marks': 82.0})
+4. db.students.insert({'_id': ObjectId('5b44bec84fb0e6b053eb05a4'), 'name': 'John', 'marks': 87.0})
+5. db.students.insert({'_id': ObjectId('5b44bf1a4fb0e6b053eb05a5'), 'name': 'Bahman', 'marks': 100.0})
+
+In steps 2 to 5 we added data to the database fullstack. "students is the collection we made to hold 
+information of the students we added.
+
+The code is in mongoDB_project\src\app.py
